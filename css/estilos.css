@@ -7,36 +7,44 @@ body {
     font-size: 16px;
     background-color: #f2f2f2;
     
+    
 }
 
 .main {
-    
-    width: 1000px;
+    display: block;
+    width: 700px;
     margin: 0 auto;
+    padding: 75px;
 }
 
 .box1 {
     background-color: #ffffff;
-    width: 1000px;
+    width: 700px;
     height: 250px;
-    justify-content: center;
 }
 
 h1 {
   color: hsl(179, 62%, 43%);   
 }
 
+.box1-p1 {
+    color:  hsl(71, 73%, 54%);
+}
+
 
 .box2 {
-    width: 500px;
+    width: 350px;
     height: 250px;
     background-color: hsl(179, 62%, 43%);
+    float: left;
     
 }
 
 button {
     background-color: hsl(71, 73%, 54%);
     color: #ffffff;
+    width: 250px;
+    margin: 50px;
 }
 
 h4 {
@@ -44,10 +52,11 @@ h4 {
 }
 
 .box3 {
-    width: 500px;
+    width: 350px;
     height: 250px;
     background-color: hsl(179, 49%, 59%);
     float: right;
+    
 }
 
 ul li {
