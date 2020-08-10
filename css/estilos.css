@@ -95,3 +95,84 @@ footer {
     text-align: center;
     
 }
+
+@media (max-width: 767px) {
+
+    body {
+        font-size: 16px;
+        background-color: #f2f2f2;
+        display: inline-block;
+        text-align: center;   
+        
+    }
+
+        .main {
+        display: inline-block;
+        width: 450px;
+        margin: 0 auto;
+        padding: 75px;
+    }
+    
+    .box1 {
+        background-color: #ffffff;
+        width: 450px;
+        height: 250px;
+        border-radius: 10px 10px;
+    }
+    
+    
+    
+    .box2 {
+        width: 450px;
+        height: 250px;
+        background-color: hsl(179, 62%, 43%);
+        float: none;
+        border-radius: 0px 0px 0px 0px;
+        
+    }
+    
+    button {
+        background-color: hsl(71, 73%, 54%);
+        color: #ffffff;
+        width: 250px;
+        height: 50px;
+        margin-top: 30px;
+        
+        border-radius: 5px;
+        
+        
+    }
+    
+    
+    .box3 {
+        width: 450px;
+        height: 250px;
+        background-color: hsl(179, 49%, 59%);
+        float: none;
+        border-radius: 0px 0px 10px 10px;
+        
+    }
+    
+    ul li {
+        list-style: none;
+        color:hsl(204, 43%, 93%);
+    }
+    
+    .contenido {
+        padding: 30px;
+    }
+    
+    
+    footer {
+        margin-top: 5px;
+        width: 450px;
+        display: inline-block;
+    }
+    .attribution {
+        font-size: 14px;
+        text-align: center;
+        float: none;
+        
+    }
+
+}
